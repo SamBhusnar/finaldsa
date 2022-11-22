@@ -19,7 +19,7 @@ void cir_queue::create(cir_queue *p)
 }
 void cir_queue::isempty(cir_queue *p)
 {
-    if (p->front = -1)
+    if (p->front == -1)
     {
         cout << "Circular queue is empty\n";
     }
@@ -76,7 +76,7 @@ int cir_queue::remove(cir_queue *p)
         {
             p->front = (p->front + 1) % max;
         }
-        cout<<z<<" is removed from the  so called circular queue\n";
+        cout << z << " is removed from the  so called circular queue\n";
         return (z);
     }
 }
