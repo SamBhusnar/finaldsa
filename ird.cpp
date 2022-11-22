@@ -112,10 +112,10 @@ int main()
             obj.insert(p, n);
             break;
         case 5:
-            obj.rem_left(p);
+            x=obj.rem_left(p);
             break;
         case 6:
-            obj.rem_right(p);
+            y=obj.rem_right(p);
             break;
         case 7:
             obj.display(p);
